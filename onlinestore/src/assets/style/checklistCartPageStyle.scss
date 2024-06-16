@@ -1,0 +1,84 @@
+
+.checkboxCart {
+  padding-top: 50px;
+
+&__title {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  color: #d09999;
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 50px;
+}
+
+&__container {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+&__item-list {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+&__list {
+    list-style-type: none;
+}
+
+  &__input {
+    margin-right: 15px;
+    zoom: 1.5;
+  }
+
+  &__label {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #737171;
+  }
+
+  &__label:hover {
+    color: #9ca2fb;
+    transition:0.1s;
+  }
+
+  &__button-box {
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__btn-cancel,
+  &__btn-primary {
+    border-radius: 10px;
+    justify-content: center;
+    width: 260px;
+    height: 70px;
+    border: none;
+    font-family: "Merienda";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #7d83dc;
+  }
+
+  &__btn-cancel:hover,
+  &__btn-primary:hover {
+    background-color: #f6d6d6;
+    transition:0.5s;
+  }
+
+}
+
+
+  

@@ -1,0 +1,140 @@
+@import "var";
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  &__title-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 120px;
+  }
+
+  &__title-container-link {
+    cursor: pointer;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: $mainColorOfSite;
+    text-decoration: none;
+  }
+
+  &__ikon-kids {
+    width: 60px;
+    padding-top: 5px;
+  }
+
+  &__nav-buttons {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__btn-cart {
+    border-radius: 70px;
+    border: none;
+    height: 70px;
+    width: 70px;
+  }
+
+  &__img-cart,
+  &__img-user {
+    height: 50px;
+    width: 50px;
+  }
+
+  &__contacts-info {
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__icon {
+    height: 40px;
+    cursor: pointer;
+  }
+
+  &__search-form {
+    width: auto;
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  }
+
+  &__search-input {
+    width: 200px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #698d91;
+    background: #f8f4eb;
+    outline: none;
+    
+    transition: .3s linear;
+    &:focus {
+      width: 500px;
+    }
+  }
+
+  &__search-btn {
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    cursor: pointer;
+  }
+
+  &__img-loupe {
+    width: 28px;
+    border-radius: 100px;
+  }
+
+  &__info-link {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #898585;
+
+    &:hover {
+      color: #6f6e6e;
+    }
+  }
+
+ 
+}

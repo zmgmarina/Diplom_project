@@ -1,0 +1,152 @@
+.questions-container {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  
+    &__content {
+      display: flex;
+      flex-direction: column;
+      
+    }
+  
+    &__content-text {
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 40px;
+      width: 1200px;
+      height: 250px;
+      padding: 30px 20px 0 20px;
+      text-align: center;
+      color: #696363;
+     
+    }
+  
+    &__question-box {
+      height: 800px;
+      padding-top: 45px;
+      padding-bottom: 45px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // gap: 20px;
+      background-color: #bfe3f1;
+      border-radius: 15px;
+    }
+  
+    &__question {
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 50px;
+      color: #5f585c;
+      padding-bottom: 20px;
+    }
+  
+    &__question-answer {
+      height: 350px;
+    }
+  
+    &__list-option {
+      list-style-type: none;
+    }
+  
+    &__input-option {
+      margin-right: 15px;
+      zoom: 1.5;
+    }
+  
+    &__label-option {
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 40px;
+      color: #737171;
+    }
+  
+    &__label-option:hover {
+      color: #7d83dc;
+      transition:0.5s;
+    }
+  
+    &__button-box {
+      height: 100px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      gap: 20px;
+    }
+  
+    &__btn-cancel,
+    &__btn-primary {
+      border-radius: 10px;
+      justify-content: center;
+      width: 260px;
+      height: 70px;
+      border: none;
+      font-family: "Merienda";
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 30px;
+      color: #7d83dc;
+    }
+  
+    &__btn-cancel:hover,
+    &__btn-primary:hover {
+      background-color: #f6d6d6;
+      transition:0.5s;
+    }
+  
+    &__result-box {
+      margin-top: 40px;
+      display: flex;
+      gap: 10px;
+    }
+  
+    &__result {
+      font-family: "Merienda";
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 30px;
+      padding: 10px;
+      background-color: #f7f4dd;
+      border-radius: 10px;
+    }
+  
+    &__button-nav {
+      display: flex;
+      justify-content:end;
+      gap: 30px;
+      padding-top: 20px;
+    }
+  
+    &__btn-nav {
+      border-radius: 10px;
+      padding: 15px 20px;
+      border: none;
+      background: #e6acac;
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+    }
+ 
+    &__btn-nav:active {
+      border: none;
+      background: #fff;
+      color: #e6acac;
+    }
+
+    &__btn-result {
+      background: rgb(185, 212, 212);
+    }
+
+    &__btn-cart-link {
+      background: rgb(177, 181, 220);
+    }
+  }

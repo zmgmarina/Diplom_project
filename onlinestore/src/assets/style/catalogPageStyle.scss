@@ -1,0 +1,157 @@
+.content-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-left: 50px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-name {
+  padding-top: 50px;
+  padding-left: 458px;
+}
+
+.category-link {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+  color: #d09999;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #bb9a9a;
+  }
+}
+
+.dropdown {
+  padding-top: 60px;
+  padding-right: 100px;
+}
+.btn-secondary {
+  background: #e6acac;
+  border: none;
+  font-size: 20px;
+}
+.dropdown-toggle:hover {
+  background: #bebaba;
+}
+
+.dropdown-toggle:active {
+  background: #bebaba;
+  border: none;
+}
+
+.dropdown-item {
+  font-size: 20px;
+  color: #494747;
+}
+
+.box-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 48px;
+  padding-top: 10px;
+}
+
+.catalog-menu {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 110px;
+
+  &__link {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #776f6f;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #bb9a9a;
+    }
+  }
+}
+
+.productItem {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d2caca;
+  margin-top: 100px;
+  padding-top: 20px;
+  text-align: center;
+
+  &__name {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 16px;
+    color: #5b5656;
+    padding-top: 30px;
+  }
+
+  &__price {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    color: #f16d7f;
+  }
+
+  &__img-product {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+
+  &__rating {
+    padding-right: 20px;
+    padding-left: 10px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #776f6f;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #bb9a9a;
+    }
+  }
+
+  .span {
+    color: #f16d7f;
+  }
+
+  &__reviews {
+    padding-right: 30px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #776f6f;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #bb9a9a;
+    }
+  }
+}
