@@ -1,14 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
 import HomePage from '@/pages/HomePage.vue';
 import CatalogPage from '@/pages/CatalogPage.vue';
-import ArticlePage from '@/pages/ArticlePage.vue';
 import QuestionPage from '@/pages/QuestionPage.vue';
 import AccountPage from '@/pages/AccountPage.vue';
 import CheckListCartPage from '@/pages/CheckListCartPage.vue';
-import CartPage from '@/pages/CartPage.vue'
-
-
+import CartPage from '@/pages/CartPage.vue';
+import CheckList from '@/pages/CheckList.vue';
 
 const routes = [
   {
@@ -21,11 +18,7 @@ const routes = [
     name: 'catalog',
     component: CatalogPage
   },
-  {
-    path: '/article',
-    name: 'article',
-    component: ArticlePage
-  },
+  
   {
     path: '/question',
     name: 'question',
@@ -46,7 +39,11 @@ const routes = [
     name: 'cart',
     component: CartPage
   },
-  
+   {
+    path: '/checklist',
+    name: 'checklist',
+    component: CheckList
+  },
 ]
 
 const router = createRouter({

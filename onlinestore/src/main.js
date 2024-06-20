@@ -7,6 +7,8 @@ import "@/assets/style/homePageStyle.scss"
 import "@/assets/style/questionPageStyle.scss"
 import "@/assets/style/catalogPageStyle.scss"
 import "@/assets/style/checklistCartPageStyle.scss"
+import "@/assets/style/footerStyle.scss"
+import "@/assets/style/checklistStyle.scss"
 
 
 createApp(App).use(store).use(router).mount('#app')

@@ -1,86 +1,137 @@
 summary {
-    display: block;
-  }
-  
-  summary::-webkit-details-marker {
-    display: none;
-  }
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.center {
+  padding-left: calc(50% - 1800px / 2);
+  padding-right: calc(50% - 1800px / 2);
+}
 
 .banner {
+  text-decoration: none;
+
+  &__img-background {
+    width: 100%;
+    position: relative;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+  }
+
+  &__text {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 65px;
+    max-width: 700px;
+    text-align: center;
+    color: #696363;
+    padding-bottom: 40px;
+  }
+
+  &__link-switching-page {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 65px;
+    color: #e6acac;
     text-decoration: none;
-  
-    &__img-background {
-      width: 100%;
-      position: relative;
-    }
-  
-    &__content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      top: 400px;
-      left: 700px;
-    }
-  
-    &__text {
-      font-family: "Merienda", cursive;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      font-size: 55px;
-      max-width: 700px;
-      text-align: center;
-      color: #696363;
-      padding-bottom: 40px;
-      
-    }
-  
-    &__link-switching-page {
-      font-family: "Merienda", cursive;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      font-size: 65px;
-      color: #e6acac;
-      text-decoration: none;
-      border: 1px solid #e6acac;
-      border-radius: 3%;
-      padding: 10px;
-      cursor: pointer;
-      
-    }
-    &__link-switching-page:hover {
-      background-color: #fff;
-      color: #f28282;
-    }
+    border: 1px solid #e6acac;
+    border-radius: 3%;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  &__link-switching-page:hover {
+    background-color: #fff;
+    color: #f28282;
+  }
 }
 
 .nav {
-    background-color: rgb(185, 212, 212);
-    height: 100px;
-    
-    &__menu {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        padding-left: 45px;
-    }
+  background-color: rgb(185, 212, 212);
+  height: 100px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 45px;
 
-    &__menu-link{
-      font-family: "Merienda", cursive;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
-      font-size: 30px;
-      color: #776f6f;
-      text-decoration: none;
-      cursor: pointer;
+  &__menu-link {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #776f6f;
+    text-decoration: none;
+    cursor: pointer;
 
-      &:hover {
-        color: #bb9a9a;
-      }
+    &:hover {
+      color: #bb9a9a;
     }
+  }
+
+}
+
+.dropdown-menu {
+ width: 200px;
+}
+
+.content-box {
+  padding-top: 300px;
+  display: flex;
+  gap: 80px;
+  margin-bottom: 100px;
+
+  
+  &__sale {
+    height: 900px;
+    min-width:  500px;
+    border: 1px solid #f28282;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__title {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    color: #ff9393;
+    padding-top: 20px;
+  }
+  
+
+  &__image {
+    width: 250px;
+}
+
+&__text {
+  font-family: "Merienda";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #323131;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }

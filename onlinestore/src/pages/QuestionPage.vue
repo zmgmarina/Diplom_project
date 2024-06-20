@@ -2,8 +2,7 @@
   <div class="questions-container">
     <div class="questions-container__content">
       <div class="questions-container__content-text">
-        Для создания корзины нам хотелось бы учесть все ваши пожелания и
-        критерии выбора товаров. Поэтому предлагаем ответить на наши вопросы.
+        Ответьте, пожалуйста на несколько вопросов.
       </div>
       <div class="questions-container__question-box">
         <h2 class="questions-container__question">
@@ -81,7 +80,7 @@
           Сохранить результат
         </button>
         <router-link to="/checklistcart">
-        <button v-if="isVisible" class="questions-container__btn-nav questions-container__btn-cart-link">Ваша корзина готова, нажмите кнопку, чтобы перейти в нее</button></router-link>
+        <button v-if="isVisible" class="questions-container__btn-nav questions-container__btn-cart-link">КОРЗИНА ГОТОВА</button></router-link>
       </div>
     </div>
   </div>

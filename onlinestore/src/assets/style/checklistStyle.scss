@@ -1,0 +1,89 @@
+.checkboxList {
+    padding-top: 50px;
+  
+    &__title {
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 50px;
+      color: #d09999;
+      text-decoration: none;
+      cursor: pointer;
+      padding-left: 50px;
+    }
+  
+    &__container {
+      padding-left: 50px;
+      padding-top: 150px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    &__item-list {
+      height: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    &__list-width {
+      width: 680px;
+    }
+  
+    &__list {
+      list-style-type: none;
+    }
+  
+    &__input {
+      margin-right: 15px;
+      zoom: 1.5;
+    }
+  
+    &__label {
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 35px;
+      color: #737171;
+    }
+  
+    &__label:hover {
+      color: #9ca2fb;
+      transition: 0.1s;
+    }
+  
+    &__quantity {
+      display: block;
+      width: 100px;
+      height: 50px;
+      padding: 0.375rem 0.75rem;
+      font-family: "Merienda";
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #b6cbea;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    
+    &__total-price {
+      font-family: "Merienda";
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 30px;
+      color: #dc7d98;
+    }
+ 
+    
+  }

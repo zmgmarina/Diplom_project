@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   gap: 50px;
-  padding-left: 50px;
 }
 
 .top-section {
@@ -21,7 +20,7 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: 35px;
+  font-size: 40px;
   color: #d09999;
   text-decoration: none;
   cursor: pointer;
@@ -33,13 +32,20 @@
 
 .dropdown {
   padding-top: 60px;
-  padding-right: 100px;
 }
 .btn-secondary {
   background: #e6acac;
   border: none;
   font-size: 20px;
 }
+
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: #e6acac;
+}
+
 .dropdown-toggle:hover {
   background: #bebaba;
 }
@@ -57,16 +63,16 @@
 .box-product {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 95px;
   margin-bottom: 48px;
   padding-top: 10px;
 }
 
 .catalog-menu {
-  padding-top: 30px;
+  padding-top: 85px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   padding-right: 110px;
 
   &__link {
@@ -77,6 +83,7 @@
     font-size: 30px;
     color: #776f6f;
     text-decoration: none;
+    width: 400px;
     cursor: pointer;
 
     &:hover {
@@ -86,8 +93,8 @@
 }
 
 .productItem {
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,6 +102,7 @@
   margin-top: 100px;
   padding-top: 20px;
   text-align: center;
+  position: relative;
 
   &__name {
     font-weight: 400;
@@ -102,6 +110,10 @@
     line-height: 16px;
     color: #5b5656;
     padding-top: 30px;
+    &:hover {
+      color: #bb9a9a;
+      transition: 0.5s;
+    }
   }
 
   &__price {
@@ -118,6 +130,16 @@
     padding-bottom: 20px;
   }
 
+  &__star-box {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  &__star_active path {
+    fill: #ffa928;
+  }
+
   &__rating {
     padding-right: 20px;
     padding-left: 10px;
@@ -132,6 +154,7 @@
 
     &:hover {
       color: #bb9a9a;
+      transition: 0.5s;
     }
   }
 
@@ -152,6 +175,34 @@
 
     &:hover {
       color: #bb9a9a;
+      transition: 0.5s;
+    }
+  }
+
+  &__btn-addCart {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    justify-content: center;
+    border: none;
+    font-family: "Merienda";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    background-color: #a4c7be;
+    color: #fff;
+    cursor: pointer;
+
+    &:active {
+      background-color: #eeefef;
+      color: #8ba39d;
+      transition: 0.5s;
+    }
+    &:hover {
+      background-color: #eeefef;
+      color: #8ba39d;
+      transition: 0.5s;
     }
   }
 }

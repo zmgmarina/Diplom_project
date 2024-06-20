@@ -57,13 +57,13 @@
   }
 
   &__contacts-info {
-    height: 50px;
+    height: 80px;
     background-color: bisque;
     display: flex;
     align-items: center;
     gap: 50px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
     justify-content: space-between;
   }
 
@@ -128,7 +128,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 25px;
     color: #898585;
 
     &:hover {

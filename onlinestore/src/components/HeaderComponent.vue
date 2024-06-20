@@ -19,7 +19,6 @@
             alt=""
           />
         </router-link>
-
         <router-link to="/cart">
           <img
             class="header__img-cart"
@@ -29,7 +28,6 @@
         </router-link>
       </div>
     </div>
-
     <div class="header__contacts-info">
       <div class="header__left">
         <a href="#">
